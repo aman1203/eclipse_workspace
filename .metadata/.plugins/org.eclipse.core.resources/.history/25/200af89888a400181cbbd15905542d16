@@ -1,0 +1,10 @@
+#consumer消费者配置
+server.port=1234
+server.context-path=/ribbon
+spring.application.name=ribbionconsumer
+#eureka配置
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=true
+eureka.client.service-url.defaultZone=http://localhost:8765/eurekaservers/eureka/
+eureka.instance.prefer-ip-address=true
+#监控配置项

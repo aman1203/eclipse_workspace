@@ -1,0 +1,17 @@
+package com.example.feignClient.controller;
+
+import com.example.feignClient.service.TestService;
+
+/**
+ * 测试控制器
+ * 
+ * @author Administrator
+ *
+ */
+public class TestController {
+  private TestService service;
+
+  public String getClient() {
+    return service.test();
+  }
+}

@@ -1,0 +1,20 @@
+package person.zeng.tree;
+
+public class DiGui {
+	static int count=1;
+	static int max;
+	public static void main(String[] args) {
+		max = 8;
+		printNum(8);
+	}
+	
+	public static void printNum(int i) {
+		if(count==max) {
+			System.out.println(count);
+		}else {
+			System.out.println(count);
+			count++;
+			printNum(count+1);
+		}
+	}
+}

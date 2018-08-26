@@ -1,0 +1,12 @@
+package com.example.feignClient.service;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+/**
+ * 定义调用接口
+ * @author Administrator
+ */
+@FeignClient("client")
+public interface TestService {
+
+}

@@ -1,0 +1,9 @@
+package com.example.feignClient.service;
+/**
+ * 定义返回结果基础类
+ * @author Administrator
+ *
+ */
+public class BaseResult {
+
+}

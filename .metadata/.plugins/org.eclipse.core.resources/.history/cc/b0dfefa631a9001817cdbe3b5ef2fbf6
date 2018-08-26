@@ -1,0 +1,28 @@
+package com.example.feignClient.service;
+
+import feign.hystrix.FallbackFactory;
+/**
+ * feignClient调用时异常处理
+ * @author Administrator
+ *
+ */
+public class TestFallbackFactoryService implements FallbackFactory<TestService>{
+
+  @Override
+  public TestService create(Throwable exception) {
+    return new TestService() {
+
+      @Override
+      public String test() {
+        return "";
+      }
+
+      @Override
+      public String test1() {
+        return null;
+      }
+      
+    };
+  }
+
+}

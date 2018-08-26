@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "eureka.client.register-with-eureka",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.register-with-eureka'"
+  },
+  {
+    "name": "eureka.client.fetch-registry",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.fetch-registry'"
+  },
+  {
+    "name": "eureka.instance.hostname",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.instance.hostname'"
+  },
+  {
+    "name": "eureka.client.eureka-server-port",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.eureka-server-port'"
+  },
+  {
+    "name": "eureka.client.service-url.defaultZone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.service-url.defaultZone'"
+  }
+]}

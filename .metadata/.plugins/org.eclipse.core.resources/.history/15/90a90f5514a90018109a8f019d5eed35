@@ -1,0 +1,16 @@
+package com.example.feignClient.service;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+/**
+ * 定义调用接口
+ * 
+ * @author Administrator
+ */
+@FeignClient(value ="client")
+public interface TestService {
+  @RequestMapping(value="/eurekaclient/getClient",method=RequestMethod.GET)
+  public abstract String test();
+}

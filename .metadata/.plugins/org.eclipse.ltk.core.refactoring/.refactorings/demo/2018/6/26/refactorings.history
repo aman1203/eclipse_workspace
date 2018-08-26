@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Message.java&apos; to &apos;redisDemo/src/main/java/com.example.hadoop.domain&apos;&#x0D;&#x0A;- Original project: &apos;demo&apos;&#x0D;&#x0A;- Destination element: &apos;redisDemo/src/main/java/com.example.hadoop.domain&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.model.Message.java&apos;" description="Copy compilation unit" destination="=redisDemo/src\/main\/java&lt;com.example.hadoop.domain" element1="/src\/main\/java&lt;com.example.demo.model{Message.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1530174261922" units="1" version="1.0"/>
+</session>

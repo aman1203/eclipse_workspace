@@ -1,0 +1,45 @@
+package 类加载机制;
+
+
+public class ClassInit {
+  public static void main(String[] args) {
+    System.out.println("父类静态代码块");
+    System.out.println("子类静态代码块");
+    System.out.println("父类普通代码块");
+    System.out.println("子类普通代码块");
+    System.out.println("父类构造方法");
+    System.out.println("子类构造方法");
+    System.out.println("-------------------------------------------");
+    Son son = new Son();
+  }
+}
+
+
+class Parent {
+  static {
+    System.out.println("父类静态代码块");
+  }
+
+  {
+    System.out.println("父类普通代码块");
+  }
+
+  public Parent() {
+    System.out.println("父类构造方法");
+  }
+}
+
+
+class Son extends Parent {
+  static {
+    System.out.println("子类静态代码块");
+  }
+
+  {
+    System.out.println("子类普通代码块");
+  }
+
+  public Son() {
+    System.out.println("子类构造方法");
+  }
+}

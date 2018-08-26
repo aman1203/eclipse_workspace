@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;person.zeng.reentrank&apos; to &apos;person.zeng.pcpattern&apos;&#x0D;&#x0A;- Original project: &apos;并发编程&apos;&#x0D;&#x0A;- Original element: &apos;并发编程/src/person.zeng.reentrank&apos;&#x0D;&#x0A;- Renamed element: &apos;并发编程/src/person.zeng.pcpattern&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;person.zeng.reentrank&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;person.zeng.reentrank" name="person.zeng.pcpattern" qualified="false" references="true" stamp="1530719988992" textual="false" version="1.0"/>
+</session>

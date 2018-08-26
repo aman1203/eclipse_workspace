@@ -1,0 +1,5 @@
+package 类加载机制;
+
+public class ClassInit {
+
+}

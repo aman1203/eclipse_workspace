@@ -1,0 +1,7 @@
+package com.example.feignClient.service;
+
+import feign.hystrix.FallbackFactory;
+
+public class TestFallbackFactoryService implements FallbackFactory<TestService>{
+
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.EditDependencyDialog">
+		<item value="480" key="width"/>
+		<item value="443" key="x"/>
+		<item value="69" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.LocalArchetypeCatalogDialog">
+		<list key="catalogLocation">
+			<item value="C:\Users\Administrator\Desktop\maven-metadata-local.xml"/>
+			<item value="C:\Users\Administrator\Desktop\archetype-metadata.xml"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="443" key="x"/>
+		<item value="0" key="y"/>
+		<item value="589" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Administrator\Desktop\hik\ox"/>
+			<item value="C:\Users\Administrator\Desktop\hik\dependencies"/>
+			<item value="C:\Users\Administrator\Desktop\hik\archetype"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeVersion">
+			<item value="1.0.0"/>
+			<item value="1.2.2"/>
+			<item value="1.0"/>
+		</list>
+		<list key="archetypeGroupId">
+			<item value="practice"/>
+			<item value="com.hikvision.ga.archetypes"/>
+			<item value="person"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="person"/>
+			<item value="ga-archetype-application"/>
+			<item value="hik-ga-archetype-application"/>
+			<item value="zeng.practice"/>
+			<item value="zeng.jie"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\practice_work\eclipse_workspace\practice_one"/>
+			<item value="E:\practice_work\eclipse_workspace\hadoop_hdfs"/>
+			<item value="C:\Users\Administrator\Desktop\hik\archetype\V1.0.X\hik-ga-archetype-application\pom.xml"/>
+			<item value="C:\Users\Administrator\Desktop\hik\dependencies\V1.X.X\hik-ga-dependencies"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="person.zeng.validate"/>
+			<item value="person.example.hadoop"/>
+			<item value="person.practice.zeng"/>
+			<item value="person.zeng"/>
+		</list>
+		<list key="groupId">
+			<item value="person.zeng"/>
+			<item value="person.example"/>
+			<item value="person"/>
+		</list>
+		<list key="artifactId">
+			<item value="validate"/>
+			<item value="mapreduce"/>
+			<item value="hadoop"/>
+			<item value="practice"/>
+			<item value="practice_two"/>
+			<item value="zeng"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,17 @@
+package person.zeng.tree;
+
+public class DiGui {
+	public static void main(String[] args) {
+		printNum(8);
+	}
+	
+	public static void printNum(int i) {
+		int count=1;
+		if(count==i) {
+			System.out.println(i);
+		}else {
+			System.out.println(i);
+			printNum(i-1);
+		}
+	}
+}

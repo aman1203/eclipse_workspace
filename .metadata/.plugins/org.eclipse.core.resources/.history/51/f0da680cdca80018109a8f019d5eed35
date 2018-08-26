@@ -1,0 +1,20 @@
+package com.example.feignClient.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import com.example.feignClient.service.TestService;
+import com.netflix.discovery.converters.Auto;
+
+/**
+ * 测试控制器
+ * 
+ * @author Administrator
+ *
+ */
+public class TestController {
+  @Autowired
+  private TestService service;
+
+  public String getClient() {
+    return service.test();
+  }
+}

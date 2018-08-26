@@ -1,0 +1,5 @@
+package com.example.feignClient.config;
+
+public class FeignConfig {
+
+}

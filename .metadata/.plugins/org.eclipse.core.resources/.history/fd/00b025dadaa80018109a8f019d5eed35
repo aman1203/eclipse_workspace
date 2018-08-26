@@ -1,0 +1,9 @@
+package com.example.feignClient.service;
+/**
+ * 定义调用接口
+ * @author Administrator
+ *
+ */
+public interface TestService {
+
+}

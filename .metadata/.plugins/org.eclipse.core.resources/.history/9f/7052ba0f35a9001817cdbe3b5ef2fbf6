@@ -1,0 +1,10 @@
+#配置项目名字
+spring.application.name=feignClient
+#sever配置项目
+server.port=9999
+server.context-path=/feignClient
+#eureka配置项目
+eureka.client.service-url.defaultZone=http://localhost:8765/eurekaservers/eureka/
+eureka.client.fetch-registry=true
+eureka.client.register-with-eureka=true
+feign.hystrix.enabled=true

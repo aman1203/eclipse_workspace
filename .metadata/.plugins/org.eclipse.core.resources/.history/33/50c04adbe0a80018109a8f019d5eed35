@@ -1,0 +1,21 @@
+package com.example.feignClient.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import com.example.feignClient.service.TestService;
+
+/**
+ * 测试控制器
+ * 
+ * @author Administrator
+ *
+ */
+public class TestController {
+  @Autowired
+  private TestService service;
+
+  @GetMapping("/test")
+  public String getClient() {
+    return service.test();
+  }
+}

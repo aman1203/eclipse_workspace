@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo"/>
+<aop-project name="springsecutity"/>
+<aop-project name="redisDemo"/>
+<aop-project name="eureka-client"/>
+<aop-project name="hadoop_hdfs"/>
+<aop-project name="feignClient-consumer"/>
+<aop-project name="eureka-server"/>
+<aop-project name="activity"/>
+<aop-project name="ribbon-consumer"/>
+</aop-reference-model>

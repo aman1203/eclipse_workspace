@@ -1,0 +1,14 @@
+#client 配置
+spring.application.name=client
+server.port=7654
+server.context-path=/eurekaclient
+eureka.client.service-url.defaultZone=http://192.168.1.103:8765/eurekaservers/eureka/
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=false
+eureka.instance.instance-id=192.168.1.101
+eureka.instance.prefer-ip-address=true
+
+#配置监控项
+endpoints.actuator.enabled=true
+endpoints.health.path=/health
+endpoints.health.enabled=true
