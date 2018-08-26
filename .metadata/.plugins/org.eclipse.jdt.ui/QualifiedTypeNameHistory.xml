@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
-<fullyQualifiedTypeName name="java.util.concurrent.CopyOnWriteArrayList"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="java.lang.ref.ReferenceQueue"/>
-<fullyQualifiedTypeName name="内存模型.MemoryTest"/>
 <fullyQualifiedTypeName name="javax.lang.model.element.TypeParameterElement"/>
-<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
 <fullyQualifiedTypeName name="person.zeng.json.User"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.core.type.TypeReference"/>
 <fullyQualifiedTypeName name="person.zeng.json.BaseResult"/>
@@ -37,7 +29,6 @@
 <fullyQualifiedTypeName name="person.zeng.validate.SvnPath"/>
 <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotEmpty"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="org.hibernate.engine.transaction.jta.platform.internal.SynchronizationRegistryBasedSynchronizationStrategy"/>
 <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextImpl"/>
@@ -47,9 +38,7 @@
 <fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.metrics.atlas.EnableAtlas"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.feign.EnableFeignClients"/>
-<fullyQualifiedTypeName name="com.example.feignClient.service.TestService"/>
 <fullyQualifiedTypeName name="com.netflix.discovery.converters.Auto"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="com.example.feignClient.config.FeignConfig"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="feign.hystrix.FallbackFactory"/>
+<fullyQualifiedTypeName name="com.example.feignClient.service.TestService"/>
+<fullyQualifiedTypeName name="com.example.feignClient.service.BaseResult"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+<fullyQualifiedTypeName name="org.springframework.test.annotation.Commit"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.netflix.discovery.shared.Application"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.netflix.discovery.DiscoveryClient"/>
 </qualifiedTypeNameHistroy>
